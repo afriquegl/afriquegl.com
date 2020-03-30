@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AFRIQUÉ GARDENS AND LANDSCAPING</title>
+    <style>
+        body{
+        }
+        body:before{
+            content: '';
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background-image: url("image/28.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            -webkit-filter: blur(10px);
+            -moz-filter: blur(10px);
+            -o-filter: blur(10px);
+            -ms-filter: blur(10px);
+            filter: blur(10px);
+        }
+        .contact-form {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 500px;
+            height: 82%;
+            padding: 80px 40px;
+            box-sizing: border-box;
+            background: rgba(0,0,0,0.7);
+        }
+        h2 {
+            margin: 0;
+            padding: 0 0 20px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        textarea {
+            margin-left: 15%;
+            text-align: left;
+            width: 310px;
+            height: 100%;
+            font-family: courier;
+            resize: none;
+        }
+        h3 a {
+            text-transform: lowercase;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            margin-left: 45%;
+            font-size: 20px;
+            transition-duration: 1s;
+        }
+        h3 a:hover {
+            font-size: 23px;
+            text-decoration: underline;
+            color: black;
+            -webkit-transition-delay: 0.1s;
+            -o-transition-delay: 0.1s;
+            -moz-transition-delay: 0.1s;
+            transition-delay: 0.1s;
+            width: 100px;
+            border-radius: 10px;
+        }
+    </style>
+
+<script type="text/javascript">
+    var myCookies = {};
+
+    function saveCookies() {
+        myCookies["fname"] = document.getElementById("fname").value;
+        myCookies["lname"] = document.getElementById("lname").value;
+        myCookies["email"] = document.getElementById("email").value;
+        myCookies["contact"] = document.getElementById("contact").value;
+        myCookies["region"] = document.getElementById("region").value;
+        myCookies["city"] = document.getElementById("city").value;
+        myCookies["gps"] = document.getElementById("gps").value;
+        //Start reusable code
+        document.cookie = "";
+        var espiresAttrib = newDate(Date.now()+60*1000).toString();
+        var cookieString = "";
+        for (var key in myCookies) {
+            cookieString = key+"="+myCookies[key]+";"+expiresAttrib+";";
+            document.cookie = cookieString;
+        }
+        //End reusable code
+        document.getElementById("out").innerHTML = document.cookie;
+    }
+
+    function loadCookies() {
+        //Start reusable code
+        myCookies = {};
+        var kv = document.cookie.split(";");
+        for(var id in kv) {
+            var cookie = kv[id].split("=");
+            myCookies[cookie[0].trim()] = cookie[1];
+        }
+        //End reusable code
+        document.getElementById("fname").value = myCookies["fname"];
+        document.getElementById("lname").value = myCookies["lname"];
+        document.getElementById("email").value = myCookies["email"];
+        document.getElementById("contact").value = myCookies["contact"];
+        document.getElementById("region").value = myCookies["region"];
+        document.getElementById("city").value = myCookies["city"];
+        document.getElementById("gps").value = myCookies["gps"];
+    }
+
+
+</script>
+
+
+
+</head>
+<body>
+
+<div class="contact-form">
+<h2>Terms and Condition</h2>
+<textarea style="font-size: 15px; font-weight: bolder;">
+
+_______________________________
+AFRIQUÉ GARDENS AND LANDSCAPING
+_______________________________
+              ↓↓↓↓ 
+              ↓↓↓↓ 
+
+
+Presents to our valued and cherished customers the terms and condition pertaining our services. This is to be moderate and fair between us and our customers. Our goal is to reach a fine and clean negotiation per our services.
+              ↓↓↓↓ 
+              ↓↓↓↓ 
+
+
+_______________________________
+For Customers Only;
+_______________________________
+
+•   Initial payment of 60%-70% must be made before delivery and beginning of work.
+
+
+
+•   Plants will be handed over to our customers after two to three months of thorough checkup and maintenance (if they are only willing to do so.).
+
+
+
+•   Customers will take care of cost per the period of maintenance at a negotiable rate.
+
+
+
+•   Customers should also take note that death of plants after being handed over will not be accounted for.
+
+
+
+•   Valid details or information should be provided for documentation and referencing.
+
+
+
+
+_______________________________
+For Afriqué Gardens and Landscaping
+_______________________________
+
+•   We respond to our customers request within 24hrs.
+
+
+
+•   Full responsibility will be taken for dead plants during maintenance period by us (Afriqué Gardens and Landscaping) but should also be of a natural cause.
+
+
+
+•   Our call lines are always available between 6:00 GMT to 22:00 GMT every day.
+
+
+
+•   We are credible and we assure clean services and delivery of goods. If our work doesn’t seem right, please make sure to inform us.
+
+
+
+•   We hand over plants to our customers care when maintenance time frame is exhausted but if you still insist in continuous maintenance, then you inform us before deadline.
+
+
+
+
+_______________________________
+Thank you!
+
+We hope these terms and conditions are as moderate as we said. If you don’t understand anything stated above please do well to notice us for further explanation or discussion.
+
+
+
+_______________________________
+Afriqué Gardens and Landscaping --------
+#We bring nature, to your doorstep!!!!
+_______________________________
+
+</textarea>
+
+<br><br>
+<h3><a onclick="" href="index.html">back</h3>
+<br><br>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Afriqué Gardens</title>
+</head>
+<style type="text/css">
+
+    #my1 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my1:hover {opacity: 0.7;}
+
+    #my2 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my2:hover {opacity: 0.7;}
+
+    #my3 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my3:hover {opacity: 0.7;}
+
+    #my4 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my4:hover {opacity: 0.7;}
+	
+    #my5 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my5:hover {opacity: 0.7;}
+
+    #my6 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my6:hover {opacity: 0.7;}
+
+    #my7 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my7:hover {opacity: 0.7;}
+
+    #my8 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my8:hover {opacity: 0.7;}
+	
+    #my9 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my9:hover {opacity: 0.7;}
+
+    #my10 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my10:hover {opacity: 0.7;}
+
+    #my11 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my11:hover {opacity: 0.7;}
+
+    #my12 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my12:hover {opacity: 0.7;}
+
+    #my13 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my13:hover {opacity: 0.7;}
+
+
+    #my14 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my14:hover {opacity: 0.7;}
+
+
+    #my15 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my15:hover {opacity: 0.7;}
+
+    #my16 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my16:hover {opacity: 0.7;}
+
+    #my17 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my17:hover {opacity: 0.7;}
+
+
+    #my18 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my18:hover {opacity: 0.7;}
+
+
+    #my19 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my19:hover {opacity: 0.7;}
+
+
+    #my20 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my20:hover {opacity: 0.7;}
+
+
+    #my21 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #my21:hover {opacity: 0.7;}
+
+
+    #mage {
+    	margin-left: 20vw;
+    }
+
+
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    }
+
+    /* Modal Content (image) */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+    }
+
+    /* Caption of Modal Image */
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+    }
+
+    /* Add Animation */
+    .modal-content, #caption {    
+        -webkit-animation-name: zoom;
+        -webkit-animation-duration: 0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+
+    @-webkit-keyframes zoom {
+        from {-webkit-transform: scale(0)} 
+        to {-webkit-transform: scale(1)}
+    }
+
+    @keyframes zoom {
+        from {transform: scale(0.1)} 
+        to {transform: scale(1)}
+    }
+
+    /* The Close Button */
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* 100% Image Width on Smaller Screens */
+    @media only screen and (max-width: 700px){
+    .modal-content {
+            width: 100%;
+        }
+    }
+    h6 {
+    	background: black;
+    	width: 7vh;
+    	text-align: center;
+    	box-shadow: 0px 1px 3px;
+    	border-radius: 1vh;
+    	transition-duration: 1s;
+    }
+    h6:hover {
+    	background-color: white;
+    	width: 8vh;
+    	border-radius: 1vh;
+    }
+    h6 a {
+    	text-decoration: none;
+    	color: white;
+    	font-size: 3vh;
+    }
+    h6 a:hover {
+    	color: black;
+    }
+</style>
+<body>
+
+<h6><a href="index.html">back</a></h6>
+
+<h2 style="text-align: center;"><b><u>Afriqué Gardens and Landscaping Gallery</u></b></h2>
+<p style="text-align: center;">This is the few collections we've done. We deal with all kinds of <u>plants</u> and <u>flowers</u> like the <b>Hibiscus flower (red,white etc)</b>, <b>Red Lace</b>, <b>Roses</b> etc.<br>
+</p><br><br>
+
+
+<div id="mage">
+<img id="my1" src="img/1.jpg" alt="Northern Lights, Norway" width="300" height="200">
+
+<img id="my2" src="img/2.jpg" alt="Northern Lights, Norway" width="300" height="200">
+
+<img id="my3" src="img/3.jpg" alt="Oleander Flower" width="300" height="200">
+
+<img id="my4" src="img/4.jpg" alt="White Shrub Flower" width="300" height="200">
+
+<img id="my5" src="img/5.jpg" alt="Northern Lights, Norway" width="300" height="200">
+
+<img id="my6" src="img/6.jpg" alt="Purple Shrub Flower" width="300" height="200">
+
+<img id="my7" src="img/7.jpg" alt="Bougainvillea Plant" width="300" height="200">
+
+<img id="my8" src="img/8.jpg" alt="White Lily Plant" width="300" height="200">
+
+<img id="my9" src="img/9.jpg" alt="Hibiscus Flower, Red" width="300" height="200">
+
+<img id="my10" src="img/10.jpg" alt="Hibiscus Flower, Orange" width="300" height="200">
+
+<img id="my11" src="img/11.jpg" alt="Northern Lights, Norway" width="300" height="200">
+
+<img id="my12" src="img/12.jpg" alt="Red Lace Hibiscus Flower" width="300" height="200">
+
+<img id="my13" src="img/13.jpg" alt="Hibiscus Flower, Pink" width="300" height="200">
+
+<img id="my14" src="img/14.jpg" alt="Rose Flower, Orange" width="300" height="200">
+
+<img id="my15" src="img/15.jpg" alt="Northern Lights, Norway" width="300" height="200">
+
+<img id="my16" src="img/16.jpg" alt="Northern Lights, Norway" width="300" height="200">
+
+<img id="my17" src="img/17.jpg" alt="Hibiscus, White" width="300" height="200">
+
+<img id="my18" src="img/18.jpg" alt="Lobster Claw (Heliconia)" width="300" height="200">
+
+<img id="my19" src="img/19.jpg" alt="Red Desert Plant" width="300" height="200">
+
+<img id="my20" src="img/20.jpg" alt="Royal Palm Tree" width="300" height="200">
+
+<img id="my21" src="img/21.jpg" alt="Triple Hibiscus Flower" width="300" height="200">
+</div>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('my1');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my2');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my3');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my4');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my5');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my6');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my7');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my8');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my9');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my10');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my11');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my12');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my13');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my14');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my15');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my16');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my17');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my18');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my19');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my20');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById('my21');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+</body>
+</html>
